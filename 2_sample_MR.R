@@ -132,7 +132,7 @@ mr_ruck <- mr_rucker(dat) #Rucker's Q
 res <- mr(dat)
 
 #can use the command below to perform specific analyses:
-res <- mr(dat, method_list=c("mr_ivw", "mr_egger_regression", "mr_weighted_median", "mr_weighted_mode"))
+res <- mr(dat, method_list=c("mr_ivw_mre", "mr_egger_regression", "mr_weighted_median", "mr_weighted_mode"))
 
 
 # Egger intercept - test of directional pleiotropy. A significant intercept suggests signifciant pleiotropy
